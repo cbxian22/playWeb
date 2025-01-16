@@ -636,7 +636,7 @@ document.addEventListener("DOMContentLoaded", () => {
     closePopTool.addEventListener("click", closePopToolF);
 
     let timeout;
-    let time = 5000;
+    let time = 1800000;
     let initialPosition = { x: 0, y: 0 };
     let isTracking = false;
     function onTimeDo() {
